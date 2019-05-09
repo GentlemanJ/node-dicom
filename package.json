@@ -16,7 +16,7 @@
     "find-uids": "./bin/find-uids.js"
   },
   "scripts": {
-    "postinstall": "./node_modules/.bin/coffee --compile --output lib/ src/",
+    "postinstall": "coffee --compile --output lib/ src/",
     "build": "coffee --compile --output lib/ src/",
     "prepublish": "coffee --compile --output lib/ src/",
     "test": "nodeunit test"
